@@ -109,181 +109,105 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 /*--header styles*/
-
-header{
-
-}
 
 Header .content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 
 
 }
 
-header .header-divider{
 
-}
 
 header nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 header nav ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    
 
 }
 
 /*--footer styles---*/
 
-footer{
+
+footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 
 }
 
-footer .content-wrapper{
-    
-
-}
-
-footer .footer-content{
-
-}
-
-footer .contact{
-
-}
-
-footer .social{
+footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
 
 
 }
-
-footer .social-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-footer .copyright{
-
-}
-
-
-
 
 
 /*-----------moblie styles - homepage------------------*/
 
-/*---main styles---*/
+/*---Hero styles---*/
 
-main{
-   
-
-}
-
-main .hero-area{
+.hero-area{
     display: flex;
     justify-content: center;
-    align-items: center;
-
-
+    flex-flow: row wrap;
 }
 
-main .content-wrapper{
-    
 
 
-}
-
-/*--Aside styles--*/
+/*--Aside --*/
 
 aside{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 
 
 }
 
-aside .content-wrapper{
 
-}
-
-aside .form-description{
-
-}
-
-aside .form{
-
-}
-
-
-/*-- section features---*/
+/*-- features---*/
 
 .features{
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-flow: row wrap;
 
 
 }
 
-.features-items{
+.features .features-items {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+    flex-flow: row wrap;
 }
 
-.fontawsome-icon{
-
-}
-
-.features-items-description{
-
-}
-
-
-/*--section reviews--*/
+/*-- reviews--*/
 
 .reviews{
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-flow: row wrap;
 
 }
-
-/*-------------------faq page-----------------*/
-
-.faq{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-.faq, .content-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
 
 /*--------------------ABout page-------------------*/
 
@@ -292,41 +216,35 @@ aside .form{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-}
-
-.mission-content{
-
-}
-
-.map{
-   
-
-
+    flex-flow: row wrap;
 }
 
 .contact-section{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-}
-
-.contact-content{
-
+    flex-flow: row wrap;
 }
 
 
+/*-------------------faq page-----------------*/
+
+.faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row warp;
 
 
+}
+.faq .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 
 
-
-
-
-
+}
 
 
 
