@@ -106,7 +106,9 @@ textarea {
 
 header,
 footer{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*--header styles*/
@@ -116,6 +118,10 @@ header{
 }
 
 Header .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -124,6 +130,15 @@ header .header-divider{
 }
 
 header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -134,6 +149,7 @@ footer{
 }
 
 footer .content-wrapper{
+    
 
 }
 
@@ -146,10 +162,18 @@ footer .contact{
 }
 
 footer .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 footer .social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -166,20 +190,31 @@ footer .copyright{
 /*---main styles---*/
 
 main{
+   
 
 }
 
 main .hero-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 main .content-wrapper{
+    
+
 
 }
 
 /*--Aside styles--*/
 
 aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -199,10 +234,18 @@ aside .form{
 /*-- section features---*/
 
 .features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 .features-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -218,11 +261,62 @@ aside .form{
 /*--section reviews--*/
 
 .reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*-------------------faq page-----------------*/
+
+.faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.faq, .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 
+/*--------------------ABout page-------------------*/
 
+
+.mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.mission-content{
+
+}
+
+.map{
+   
+
+
+}
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contact-content{
+
+}
 
 
 
