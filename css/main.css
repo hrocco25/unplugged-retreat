@@ -165,6 +165,7 @@ textarea {
 
    img {
        width: 100%;
+       
 
    }
    
@@ -176,14 +177,11 @@ textarea {
    address {
        text-align: center;
        font-style: normal;
-
    }
 
    .content-wrapper{
        width: 90%;
        margin: 50px 0;
-       
-
    }
 
 
@@ -283,10 +281,12 @@ footer .copyright {
 /*---Hero styles---*/
 
 .hero-area{
+    background: url('img/unsplash.jpg') center no-repeat #333;
+    background-size: cover;
+   
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url('img/')
    
 }
 
