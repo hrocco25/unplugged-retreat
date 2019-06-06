@@ -156,8 +156,10 @@ textarea {
    }
 
    p{
-       font-size: .8em;
-       line-height: 1.2;
+       font-size: .9em;
+       line-height: 1.4;
+      
+    
 
    }
 
@@ -377,6 +379,7 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row warp;
+    background: #527158;
     
 
 
