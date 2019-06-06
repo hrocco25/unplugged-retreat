@@ -281,7 +281,7 @@ footer .copyright {
 /*---Hero styles---*/
 
 .hero-area{
-    background: url('img/unsplash.jpg') center no-repeat #333;
+    background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
     background-size: cover;
    
     display: flex;
@@ -305,6 +305,8 @@ aside {
 /*-- features---*/
 
 .features{
+    background: url('../img/rawpixel-unsplash1.jpg') center no-repeat #333;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
