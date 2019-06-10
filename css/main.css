@@ -304,7 +304,7 @@ footer .copyright {
 }
 
 .hero-area{
-    background: url('../img/hero.jpg') center no-repeat #333;
+    background: url('../img/unsplash.jpg') center no-repeat #333;
     background-size: cover;
     min-height: 500px;
     display: flex;
@@ -445,26 +445,23 @@ aside .content-wrapper{
     align-items: center;
     flex-flow: row warp;
     background: #527158;
-    
-
-
 }
 .faq .content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
-    margin: 50px 0 0 0;
-    
+    flex-flow: row wrap;  
 }
 
 .faq h2{
-    margin-bottom: 45px;
+    font-size: 2em;
+    line-height: 1em;
 }
 
-.faq-content{
-    margin-bottom: 50px;
+.faq h4{
+    font-weight: 700;
 }
+
 
 /*----Button------*/
 
@@ -750,6 +747,7 @@ input[type=button] {
 
     footer .copyright {
         width: 100%;
+        font-size: .8em;
     }
 
   
@@ -762,23 +760,24 @@ input[type=button] {
         align-items: center;
     }
 
-    main h2{
-        font-size: 2.27em;
-    }
-
     .mission-content p {
         width: 45%;
     }
 
-    .contact-section .contact-wrapper h2{
-        width: 80%;
-       
-    }
+   
 
     .contact-content{
         display: flex;
         justify-content: space-between;
         align-items: flex-start; 
+    }
+
+    .contact-content h4{
+        font-size: 1.34em;
+    } 
+
+    .contact-content p{
+        font-size: 1em;
     }
 
    
@@ -792,14 +791,24 @@ input[type=button] {
 
     .faq .content-wrapper {
         justify-content: space-between;
+        margin: 20px;
     }
 
     .faq-content {
         flex-basis: 40%;
+        margin: 15px 0;
     }
 
     .faq h2{
         width: 100%;
+    }
+
+    .faq h4{
+        font-size: 1em;
+    }
+
+    .faq p{
+        font-size: .9em;
     }
 
 
@@ -824,15 +833,27 @@ input[type=button] {
 
     /*Hero*/
 
+
     .hero-area h1{
         font-size: 3.7em;
-        width: 60%;
+        width: 80%;
     }
 
     /*Aside*/
 
     aside .content-wrapper{
         justify-content: space-around;
+    }
+
+    aside h3{
+        font-size: 2em;
+    }
+
+  
+
+    .form-description p{
+        font-size: 1.2em
+
     }
 
     aside .content-wrapper .form-description,
@@ -868,6 +889,14 @@ input[type=button] {
 
     .contact-section .content-wrapper h2 {
         margin-bottom: 40px;
+    }
+
+    .contact-content h4{
+        font-size: 2em;
+    } 
+
+    .contact-content p{
+        font-size: 1.2em;
     }
 
     
