@@ -191,7 +191,7 @@ footer{
 /*--header styles*/
 
 header{
-    padding: 15px 0;
+    padding: 15px 0 0 0;
 }
 
 header figure{
@@ -247,6 +247,10 @@ footer{
     text-align: center;
 }
 
+footer h4{
+    font-size: 1.3em;
+}
+
 footer p{
     margin: 0;
 }
@@ -290,14 +294,22 @@ footer .copyright {
 
 /*---Hero styles---*/
 
+.hero-area .content-wrapper{
+    margin: 0;
+}
+
+.hero-area h1{
+    font-weight: 400;
+    font-size: 2.3em;
+}
+
 .hero-area{
-    background: url('../img/unsplash.jpg') center no-repeat #333;
+    background: url('../img/hero.jpg') center no-repeat #333;
     background-size: cover;
     min-height: 500px;
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
-   
+    flex-flow: row wrap;  
 }
 
 
@@ -309,6 +321,11 @@ aside {
     align-items: center;
     flex-flow: row wrap;
     background: #527158;
+    
+}
+
+aside .content-wrapper{
+    margin-top: 0;
 }
 
 
@@ -320,10 +337,16 @@ aside {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    
+}
+
+.features .content-wrapper{
+    margin: 20px;
 }
 
 .features  h2{
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    font-size: 2em;
 }
 
 .features article{
@@ -358,13 +381,18 @@ aside {
 }
 
 .reviews h2{
-    margin-bottom: 40px;
+    font-size: 2em;
+    margin-top: 0;
+   
 }
 .reviews h3{
     width: 55%;
     margin: 20px 0;
 }
 
+.reviews p{
+    margin: 0;
+}
 /*--------------------ABout page-------------------*/
 
 
